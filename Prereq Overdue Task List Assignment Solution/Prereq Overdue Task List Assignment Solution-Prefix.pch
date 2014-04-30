@@ -10,6 +10,12 @@
 #warning "This project uses features only available in iOS SDK 5.0 and later."
 #endif
 
+#define TASK_ARRAY_KEY @"taskArrayKey" // array key for task property list
+#define TASK_TITLE @"taskTitle"
+#define TASK_DETAIL @"taskDetail"
+#define TASK_DATE @"taskDate"
+#define TASK_COMPLETION_STATUS @"taskCompletionStatus"
+
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>

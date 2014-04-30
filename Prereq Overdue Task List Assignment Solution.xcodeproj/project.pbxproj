@@ -14,13 +14,16 @@
 		250C62131910DB6500A32C3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 250C62121910DB6500A32C3F /* main.m */; };
 		250C62171910DB6500A32C3F /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 250C62161910DB6500A32C3F /* CCAppDelegate.m */; };
 		250C621A1910DB6500A32C3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250C62181910DB6500A32C3F /* Main.storyboard */; };
-		250C621D1910DB6500A32C3F /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250C621C1910DB6500A32C3F /* CCViewController.m */; };
 		250C621F1910DB6500A32C3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250C621E1910DB6500A32C3F /* Images.xcassets */; };
 		250C62261910DB6500A32C3F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250C62251910DB6500A32C3F /* XCTest.framework */; };
 		250C62271910DB6500A32C3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250C62061910DB6400A32C3F /* Foundation.framework */; };
 		250C62281910DB6500A32C3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250C620A1910DB6400A32C3F /* UIKit.framework */; };
 		250C62301910DB6500A32C3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 250C622E1910DB6500A32C3F /* InfoPlist.strings */; };
 		250C62321910DB6500A32C3F /* Prereq_Overdue_Task_List_Assignment_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 250C62311910DB6500A32C3F /* Prereq_Overdue_Task_List_Assignment_SolutionTests.m */; };
+		250C623D1910DBBC00A32C3F /* CCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250C623C1910DBBC00A32C3F /* CCTableViewController.m */; };
+		250C62401910DBE700A32C3F /* CCAddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250C623F1910DBE700A32C3F /* CCAddTaskViewController.m */; };
+		250C62431910DD7A00A32C3F /* CCDetailTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250C62421910DD7A00A32C3F /* CCDetailTaskViewController.m */; };
+		250C62461910DE5500A32C3F /* CCEditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250C62451910DE5500A32C3F /* CCEditTaskViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,20 @@
 		250C62151910DB6500A32C3F /* CCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAppDelegate.h; sourceTree = "<group>"; };
 		250C62161910DB6500A32C3F /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
 		250C62191910DB6500A32C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		250C621B1910DB6500A32C3F /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
-		250C621C1910DB6500A32C3F /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
 		250C621E1910DB6500A32C3F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		250C62241910DB6500A32C3F /* Prereq Overdue Task List Assignment SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prereq Overdue Task List Assignment SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		250C62251910DB6500A32C3F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		250C622D1910DB6500A32C3F /* Prereq Overdue Task List Assignment SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prereq Overdue Task List Assignment SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		250C622F1910DB6500A32C3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		250C62311910DB6500A32C3F /* Prereq_Overdue_Task_List_Assignment_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prereq_Overdue_Task_List_Assignment_SolutionTests.m; sourceTree = "<group>"; };
+		250C623B1910DBBC00A32C3F /* CCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTableViewController.h; sourceTree = "<group>"; };
+		250C623C1910DBBC00A32C3F /* CCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTableViewController.m; sourceTree = "<group>"; };
+		250C623E1910DBE700A32C3F /* CCAddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAddTaskViewController.h; sourceTree = "<group>"; };
+		250C623F1910DBE700A32C3F /* CCAddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAddTaskViewController.m; sourceTree = "<group>"; };
+		250C62411910DD7A00A32C3F /* CCDetailTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDetailTaskViewController.h; sourceTree = "<group>"; };
+		250C62421910DD7A00A32C3F /* CCDetailTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDetailTaskViewController.m; sourceTree = "<group>"; };
+		250C62441910DE5500A32C3F /* CCEditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEditTaskViewController.h; sourceTree = "<group>"; };
+		250C62451910DE5500A32C3F /* CCEditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEditTaskViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +124,14 @@
 				250C62151910DB6500A32C3F /* CCAppDelegate.h */,
 				250C62161910DB6500A32C3F /* CCAppDelegate.m */,
 				250C62181910DB6500A32C3F /* Main.storyboard */,
-				250C621B1910DB6500A32C3F /* CCViewController.h */,
-				250C621C1910DB6500A32C3F /* CCViewController.m */,
+				250C62441910DE5500A32C3F /* CCEditTaskViewController.h */,
+				250C62451910DE5500A32C3F /* CCEditTaskViewController.m */,
+				250C62411910DD7A00A32C3F /* CCDetailTaskViewController.h */,
+				250C62421910DD7A00A32C3F /* CCDetailTaskViewController.m */,
+				250C623E1910DBE700A32C3F /* CCAddTaskViewController.h */,
+				250C623F1910DBE700A32C3F /* CCAddTaskViewController.m */,
+				250C623B1910DBBC00A32C3F /* CCTableViewController.h */,
+				250C623C1910DBBC00A32C3F /* CCTableViewController.m */,
 				250C621E1910DB6500A32C3F /* Images.xcassets */,
 				250C620D1910DB6500A32C3F /* Supporting Files */,
 			);
@@ -251,8 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				250C62171910DB6500A32C3F /* CCAppDelegate.m in Sources */,
+				250C62431910DD7A00A32C3F /* CCDetailTaskViewController.m in Sources */,
+				250C62401910DBE700A32C3F /* CCAddTaskViewController.m in Sources */,
 				250C62131910DB6500A32C3F /* main.m in Sources */,
-				250C621D1910DB6500A32C3F /* CCViewController.m in Sources */,
+				250C623D1910DBBC00A32C3F /* CCTableViewController.m in Sources */,
+				250C62461910DE5500A32C3F /* CCEditTaskViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
